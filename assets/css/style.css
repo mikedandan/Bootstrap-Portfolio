@@ -73,7 +73,7 @@ h5 {
     text-decoration: none;
     margin-left: 15px;
     display: inline-block;
-    border-left: 1px solid #efefef;
+    /* border-left: 1px solid #efefef; */
     padding-left: 15px;
     line-height: 18px;
 }
@@ -117,6 +117,7 @@ h5 {
         position: absolute; /*lets you position banner relative to relatively-positioned parent container*/
         bottom: 15px; /*positions it 15px from bottom of container*/
         background-color: #4aaaa5;
+        opacity: .9;
         display: flex; /*lets you use the next two properties*/
         justify-content: center; /*centers .banner's children along x axis*/
         align-items: center; /*centers .banner's children along y axis*/
